@@ -34,7 +34,8 @@ async function deleteRoleAccess(uuid: string): Promise<GeneralResponse> {
     } else {
         return new ErrorResponse('error', data)
     }
-
 }
+
+
 
 export { testSetting, createNewRoleAccess, getAllRoleAccess, deleteRoleAccess }
